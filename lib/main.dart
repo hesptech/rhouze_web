@@ -8,6 +8,7 @@ import 'package:provider/provider.dart';
 
 
 import 'package:rhouze_web/providers/repliers_provider.dart';
+import 'package:rhouze_web/providers/repliers_search.dart';
 import 'package:rhouze_web/providers/filter_provider.dart';
 
 
@@ -32,10 +33,10 @@ class AppState extends StatelessWidget {
       providers: [
         ChangeNotifierProvider( create: (_) => FilterProvider() ),
         ChangeNotifierProvider( create: (_) => RepliersProvider(Preferences.filtersStatusProperties), lazy: false ),
-        /* ChangeNotifierProvider( create: (_) => RepliersFilters('toronto ALL') ),
-        ChangeNotifierProvider( create: (_) => RepliersListingMls() ),
+        //ChangeNotifierProvider( create: (_) => RepliersFilters('toronto ALL') ),
+        //ChangeNotifierProvider( create: (_) => RepliersListingMls() ),
         ChangeNotifierProvider( create: (_) => RepliersSearch(), ),
-        ChangeNotifierProvider( create: (_) => MapListProvider() ), */
+        //ChangeNotifierProvider( create: (_) => MapListProvider() ),
       ],
       child: const App(),
     );
