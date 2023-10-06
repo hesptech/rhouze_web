@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 
 import 'package:rhouze_web/providers/repliers_provider.dart';
 import 'package:rhouze_web/providers/filter_provider.dart';
+
 import 'package:rhouze_web/widgets/cards_slider_hor.dart';
 import 'package:rhouze_web/widgets/filters_status_bt.dart';
 import 'package:rhouze_web/utils/search_delegate.dart';
@@ -32,7 +33,7 @@ class HomeScreen extends StatelessWidget {
           ),
           IconButton(
             onPressed: () {
-              showSearch(context: context, delegate: InputSearchDelegate());
+              Navigator.pushNamed(context, 'filters_screen');
             },
             icon: const Icon(
               Icons.tune_outlined,
