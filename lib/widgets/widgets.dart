@@ -6,7 +6,7 @@ export 'package:rhouze_web/widgets/filters_status_bt.dart';
 export 'package:rhouze_web/widgets/cards_slider_filters.dart';
 //export 'package:rhouze_web/modules/cards/card_scroll_vertical/card_vertical.dart';
 //export 'package:rhouze_web/modules/cards/card_scroll_vertical/card_stack_items.dart';
-//export 'package:rhouze_web/widgets/custom_buttom_navigation.dart';
+export 'package:rhouze_web/widgets/custom_buttom_navigation.dart';
 //export 'package:rhouze_web/widgets/login_methods.dart';
 //export 'package:rhouze_web/widgets/login_account.dart';
 //export 'package:rhouze_web/widgets/response_count.dart';
