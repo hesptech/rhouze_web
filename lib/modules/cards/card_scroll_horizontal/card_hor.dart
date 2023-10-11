@@ -102,7 +102,7 @@ class CardHor extends StatelessWidget {
                     ),
                     
                     SizedBox(
-                      height: 134,
+                      height: 130,
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.end,
                         children: [

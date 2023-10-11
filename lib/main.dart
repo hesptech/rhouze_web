@@ -53,7 +53,7 @@ class App extends StatelessWidget {
       scrollBehavior: MyCustomScrollBehavior(),
       debugShowCheckedModeBanner: false,
       title: 'RHOUZE Web',
-      //theme: theme,
+      theme: theme,
       initialRoute: '/',
       routes: customRoutes,
       home: const Scaffold(
