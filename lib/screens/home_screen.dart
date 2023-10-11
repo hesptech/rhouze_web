@@ -5,7 +5,7 @@ import 'package:rhouze_web/providers/repliers_provider.dart';
 import 'package:rhouze_web/providers/filter_provider.dart';
 
 import 'package:rhouze_web/widgets/widgets.dart';
-import 'package:rhouze_web/utils/search_delegate.dart';
+//import 'package:rhouze_web/utils/search_delegate.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -17,7 +17,8 @@ class HomeScreen extends StatelessWidget {
     final repliersStatusProperties = Provider.of<FilterProvider>(context).filtersStatusProperties;
 
     return Scaffold(
-      appBar: AppBar(
+      appBar: const CustomAppbar(),
+      /* appBar: AppBar(
         //title: const Text('Rhouze Web POC (prove of concept) & MVP (minimum viable product)'),
         title: const Text('Rhouze Web'),
         actions: [
@@ -43,7 +44,7 @@ class HomeScreen extends StatelessWidget {
             width: 10,
           )
         ],
-      ),
+      ) */
       body: Stack(
         children: [
           SingleChildScrollView(
